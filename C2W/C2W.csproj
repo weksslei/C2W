@@ -81,10 +81,10 @@
     <Compile Include="Administracao\Backup.Designer.cs">
       <DependentUpon>Backup.cs</DependentUpon>
     </Compile>
-    <Compile Include="c2wDataSet.cs">
+    <Compile Include="DataSet\c2wDataSet.cs">
       <DependentUpon>c2wDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="c2wDataSet.Designer.cs">
+    <Compile Include="DataSet\c2wDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>c2wDataSet.xsd</DependentUpon>
@@ -361,10 +361,10 @@
     <Compile Include="Administracao\Requisicoes_Gerente.Designer.cs">
       <DependentUpon>Requisicoes_Gerente.cs</DependentUpon>
     </Compile>
-    <Compile Include="TelaPrincipal.cs">
+    <Compile Include="TelaPrincipal\TelaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaPrincipal.Designer.cs">
+    <Compile Include="TelaPrincipal\TelaPrincipal.Designer.cs">
       <DependentUpon>TelaPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Administracao\Usuarios.cs">
@@ -424,6 +424,7 @@
     <EmbeddedResource Include="Frm_Base.resx">
       <DependentUpon>Frm_Base.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Portifolio\ManterPortifolio.resx" />
     <EmbeddedResource Include="Relatorio\GerarRelatorios.resx">
       <DependentUpon>GerarRelatorios.cs</DependentUpon>
     </EmbeddedResource>
@@ -538,7 +539,7 @@
     <EmbeddedResource Include="Administracao\Requisicoes_Gerente.resx">
       <DependentUpon>Requisicoes_Gerente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TelaPrincipal.resx">
+    <EmbeddedResource Include="TelaPrincipal\TelaPrincipal.resx">
       <DependentUpon>TelaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Administracao\Usuarios.resx">
@@ -547,15 +548,15 @@
     <EmbeddedResource Include="Vendas\Vendas.resx">
       <DependentUpon>Vendas.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="c2wDataSet.xsc">
+    <None Include="DataSet\c2wDataSet.xsc">
       <DependentUpon>c2wDataSet.xsd</DependentUpon>
     </None>
-    <None Include="c2wDataSet.xsd">
+    <None Include="DataSet\c2wDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>c2wDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="c2wDataSet.xss">
+    <None Include="DataSet\c2wDataSet.xss">
       <DependentUpon>c2wDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
